@@ -1,13 +1,24 @@
 <ion-view>
     <ion-content padding='true'>
-        <div ng-repeat="item in items" class="card">
-            <div class="item item-text-wrap">
-                <a class="card-planning" href="#">
-                    <h2>{{ item.matiere }}</h2>
-                    <p>{{ item.professeur }}</p>
-                    <p class="text-right">De {{ item.horaires.from }} à {{ item.horaires.to }}</p>
-                </a>
+        <div class="list card">
+
+            <div class="item item-avatar">
+                <img src="mcfly.jpg">
+                <h2>{{ item.matiere }}</h2>
+                <p>{{ item.professeur }}</p>
             </div>
+
+            <div class="item item-body">
+                <img class="full-image" src="delorean.jpg">
+                <p>
+                    This is a "Facebook" styled Card. The header is created from a Thumbnail List item, the content is from a card-body consisting of an image and paragraph text. The footer consists of tabs, icons aligned left, within the card-footer.
+                </p>
+                <p>
+                    <a href="#" class="subdued">1 Like</a>
+                    <a href="#" class="subdued">5 Comments</a>
+                </p>
+            </div>
+
         </div>
     </ion-content>
 </ion-view>
