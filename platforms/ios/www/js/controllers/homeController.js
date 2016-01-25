@@ -1,5 +1,9 @@
 'use strict';
 
-app.controller('homeIndex', function ($scope) {
-    $scope.title = 'Beacon';
-});
+app
+    .controller('homeIndex', function ($scope) {
+    })
+    .controller('homeLogin', function ($scope) {
+
+    })
+;

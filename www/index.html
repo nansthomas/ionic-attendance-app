@@ -20,13 +20,14 @@
 
   <!-- controllers -->
   <script src="js/controllers/homeController.js"></script>
+  <script src="js/controllers/planningController.js"></script>
 </head>
 
 <body ng-app="andrea">
   <ion-header-bar align-title="left" class="bar-positive">
-    <h1 class="title">Andrea</h1>
+    <h1 class="title"><a href="#/">Andrea</a></h1>
     <div class="buttons">
-      <button class="button">Connexion</button>
+      <a href="#/login"class="button">Connexion</a>
     </div>
   </ion-header-bar>
   <ion-nav-view>
@@ -37,7 +38,7 @@
       <a class="tab-item">
         <i class="icon ion-ios-albums-outline"></i> Historique
       </a>
-      <a class="tab-item">
+      <a href="#/planning/list"class="tab-item">
         <i class="icon ion-ios-calendar-outline"></i> Planning
       </a>
       <a class="tab-item">
