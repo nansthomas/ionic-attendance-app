@@ -25,7 +25,7 @@ app
             })
             .state('planningDetail', {
                 cache       : cacheActive,
-                url         : '/planning/detail',
+                url         : '/planning/:slug',
                 templateUrl : 'js/views/planning/detail.html',
                 controller  : 'planningDetail'
             })

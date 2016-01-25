@@ -2,7 +2,7 @@
     <ion-content padding='true'>
         <div ng-repeat="item in items" class="card">
             <div class="item item-text-wrap">
-                <a class="card-planning" href="#">
+                <a class="card-planning" ng-href="#/planning/{{ item.slug }}">
                     <h2>{{ item.matiere }}</h2>
                     <p>{{ item.professeur }}</p>
                     <p class="text-right">De {{ item.horaires.from }} à {{ item.horaires.to }}</p>

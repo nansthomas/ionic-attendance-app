@@ -6,37 +6,42 @@ app
             {
                 "matiere"       : "Développement Web",
                 "professeur"    : "M. Bruno Simon",
+                "slug"          : "developpement-web-lundi",
                 "horaires"      : {
                         "from"  : "09:00",
                         "to"    : "12:00"
                 }
             },
             {
-                "matiere"       : "Développement Web",
-                "professeur"    : "M. Bruno Simon",
+                "matiere"       : "Algorithme",
+                "professeur"    : "M. Franck Lepoivre",
+                "slug"          : "algorithme-lundi",
                 "horaires"      : {
-                        "from"  : "09:00",
-                        "to"    : "12:00"
+                        "from"  : "14:00",
+                        "to"    : "17:00"
                 }
             },
             {
-                "matiere"       : "Développement Web",
-                "professeur"    : "M. Bruno Simon",
+                "matiere"       : "Anglais",
+                "professeur"    : "Mme. Agnès Rouvrais",
+                "slug"          : "anglais-mardi",
                 "horaires"      : {
                         "from"  : "09:00",
-                        "to"    : "12:00"
+                        "to"    : "10:30"
                 }
             }
         ]
     })
 
-    .controller('planningDetail', function ($scope) {
+    .controller('planningDetail', function ($scope, $stateParams) {
+        console.log($stateParams);
         $scope.item = {
-            "matiere" : "Développement Web",
-            "professeur" : "M. Bruno Simon",
+            "matiere"       : "Développement Web",
+            "professeur"    : "M. Bruno Simon",
+            "slug"          : "developpement-web-lundi",
             "horaires" : {
-                "from" : "09:00",
-                "to" : "12:00"
+                "from"  : "09:00",
+                "to"    : "12:00"
             }
         };
     })
