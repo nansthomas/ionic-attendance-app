@@ -23,5 +23,11 @@ app
                 templateUrl : 'js/views/planning/list.html',
                 controller  : 'planningList'
             })
+            .state('planningDetail', {
+                cache       : cacheActive,
+                url         : '/planning/detail',
+                templateUrl : 'js/views/planning/detail.html',
+                controller  : 'planningDetail'
+            })
     })
 ;
