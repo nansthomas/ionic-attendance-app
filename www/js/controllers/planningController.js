@@ -5,7 +5,9 @@ app
         $scope.items = [
             {
                 "matiere"       : "Développement Web",
+                "photoMatiere"  : "../img/matieres/developpement.jpg",
                 "professeur"    : "M. Bruno Simon",
+                "photoProf"     : "../img/teachers/bruno-simon-web.jpeg",
                 "slug"          : "developpement-web-lundi",
                 "horaires"      : {
                         "from"  : "09:00",
@@ -37,7 +39,9 @@ app
         console.log($stateParams);
         $scope.item = {
             "matiere"       : "Développement Web",
+            "photoMatiere"  : "../img/matieres/developpement.jpg",
             "professeur"    : "M. Bruno Simon",
+            "photoProf"     : "../img/teachers/bruno-simon-web.jpeg",
             "slug"          : "developpement-web-lundi",
             "horaires" : {
                 "from"  : "09:00",
