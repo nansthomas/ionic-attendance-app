@@ -29,6 +29,18 @@ app
                 templateUrl : 'js/views/planning/detail.html',
                 controller  : 'planningDetail'
             })
+            .state('historiqueList', {
+                cache       : cacheActive,
+                url         : '/historique/list',
+                templateUrl : 'js/views/historique/list.html',
+                controller  : 'historiqueList'
+            })
+            .state('historiqueDetail', {
+                cache       : cacheActive,
+                url         : '/historique/:slug',
+                templateUrl : 'js/views/historique/detail.html',
+                controller  : 'historiqueDetail'
+            })
             .state('Settings', {
                 cache       : cacheActive,
                 url         : '/settings',

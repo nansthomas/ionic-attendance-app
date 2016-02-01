@@ -22,6 +22,7 @@
   <script src="js/controllers/homeController.js"></script>
   <script src="js/controllers/planningController.js"></script>
   <script src="js/controllers/settingsController.js"></script>
+  <script src="js/controllers/historiqueController.js"></script>
 </head>
 
 <body ng-app="andrea">
@@ -33,10 +34,10 @@
   </ion-header-bar>
   <ion-nav-view>
     <div class="tabs tabs-icon-top">
-      <a class="tab-item">
+      <a href="#/" class="tab-item">
         <i class="icon ion-ios-pulse"></i> Etat
       </a>
-      <a class="tab-item">
+      <a href="#/historique/list"class="tab-item">
         <i class="icon ion-ios-albums-outline"></i> Historique
       </a>
       <a href="#/planning/list"class="tab-item">
