@@ -2,9 +2,12 @@
     <ion-content padding='false'>
 
         <div class="cover" style="background-image:url({{ item.photoMatiere }})">
-            <h1>{{ item.matiere }}</h1>
-            <p>{{ item.professeur }}</p>
-            <img src="{{ item.photoProf }}" alt="Photo professeur">
+            <div class="content">
+                <h1>{{ item.matiere }}</h1>
+                <img src="{{ item.photoProf }}" alt="Photo professeur">
+                <p>{{ item.professeur }}</p>
+                <p>De {{ item.horaires.from }} à {{ item.horaires.to }}</p>
+            </div>
         </div>
 
     </ion-content>
