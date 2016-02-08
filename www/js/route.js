@@ -5,13 +5,13 @@ var cacheActive = false;
 app
     .config(function ($stateProvider) {
         $stateProvider
-            .state('home', {
+            .state('homeIndex', {
                 cache       : cacheActive,
                 url         : '/',
                 templateUrl : 'js/views/home/index.html',
                 controller  : 'homeIndex'
             })
-            .state('login', {
+            .state('homeLogin', {
                 cache       : cacheActive,
                 url         : '/login',
                 templateUrl : 'js/views/home/login.html',
