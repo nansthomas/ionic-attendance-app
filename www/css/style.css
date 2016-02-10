@@ -33,8 +33,16 @@ ion-view {
     opacity: 1;
 }
 
+.card {
+    background: rgba(255, 255, 255, 0);
+}
+
 .login {
     width: 250px;
+}
+
+.item {
+    background-color: rgba(255, 255, 255, 0.54);
 }
 
 .is-white {
