@@ -1,3 +1,48 @@
+ion-view {
+    background: linear-gradient(-134deg, rgba(32, 195, 231, 0.72) 0%, rgba(232, 102, 253, 0.72) 100%), url(../img/people.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.tabs:not(:last-child) {
+    margin-bottom: 5px;
+    background: none;
+}
+
+.tabs a {
+    padding: 0px;
+}
+
+.card {
+    width: 100%;
+}
+
+.button {
+    display: block;
+    font-size: 16px;
+    height: 32px;
+    line-height: 34px;
+}
+
+.no-back {
+    background: none;
+}
+
+.tabs a {
+    border: none;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.login {
+    width: 250px;
+}
+
+.is-white {
+    border-color: #ffffff;
+    color: #ffffff;
+    background: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -38,17 +83,3 @@ a {
 .list {
     margin-top: 30px;
 }
-.etat-block {
-    margin: auto;
-    text-align: center;
-    margin-top: 200px;
-}
-.icon {
-    font-size: 120px;
-}
-
-.state {
-    margin-top: 10px;
-}
-
-media

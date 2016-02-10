@@ -12,6 +12,6 @@ var app = angular.module('andrea', ['ionic']).run(function($ionicPlatform, $loca
       StatusBar.styleDefault();
     }
 
-    $location.path('/')
+    $location.path('/login')
   });
 });
